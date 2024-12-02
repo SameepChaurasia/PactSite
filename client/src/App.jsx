@@ -23,6 +23,8 @@ import Placement from "./pages/Placement";
 import Publications from "./pages/Publications";
 import Signin from "./components/Signin";
 import SignUp from "./components/SignUp";
+import Profile from "./components/Profile";
+import PrivateRoute from "./components/PrivateRoute";
 
 export default function App() {
   return (
@@ -52,6 +54,11 @@ export default function App() {
         <Route path="/publications" element={<Publications/>}/>
         <Route path="/signin" element={<Signin/>}/>
         <Route path="/signup" element={<SignUp/>}/>
+        
+        <Route  element={<PrivateRoute/>}> 
+            <Route path="/profile" element={<Profile/>}/>
+        </Route>
+
         
 
 
