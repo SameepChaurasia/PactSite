@@ -1,11 +1,11 @@
-import SlideShow from "../pages/SlideShow";
+import Slideshow from "../pages/Slideshow";
 
 
 export default function Home() {
   return (
   <div className="bg-gradient-to-r from-emerald-50 to-cyan-50">
       <div className="">
-        <SlideShow/>   
+        <Slideshow/>   
       </div>
   
 
