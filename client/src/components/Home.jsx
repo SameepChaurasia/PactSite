@@ -10,11 +10,11 @@ export default function Home() {
   
 
       <div className="flex flex-row pt-10 pr-5 pl-5">
-          <div className="basis-4/6">
+          <div className="basis-4/6 pr-5">
                 <div className="text-center">
                   <a className="font-serif font-extrabold text-2xl underline decoration-cyan-600">Latest Post </a>
                 </div>        
-
+ 
 <div className="pl-10 pt-5">
 <div className="flex flex-row border-b-2 border-indigo-500 pb-4" >
     <div className="basis-2/3">
@@ -143,9 +143,10 @@ export default function Home() {
 
               </div>
 
-          </div>
+</div>
 
-          <div className="basis-2/6 bg-gradient-to-r from-emerald-100 to-cyan-100  border-4 border-indigo-200 border-x-indigo-500 text-sm">
+<div className="basis-2/6 ">
+          <div className="bg-gradient-to-r from-emerald-100 to-cyan-100  border-4 border-indigo-200 border-x-indigo-500 text-sm">
                   <div className="text-center ">
                     <a className="font-serif font-extrabold text-2xl underline decoration-cyan-600">⇜Recent Post⇝</a>
                     <div className="border-b-2 border-emerald-800 pb-3">
@@ -174,15 +175,11 @@ export default function Home() {
                         <a className="font-serif font-extrabold hover:underline">»Click here to view all 2019 Posts</a><br/><br/>
                         <a className="font-serif font-extrabold hover:underline">»Click here to view all 2018 Posts</a><br/><br/>  </div>
                       </div>
-                
+                </div>
           </div>
       </div>
 
-
-  
-          
-
-      </div>
+</div>
 
   )
 }

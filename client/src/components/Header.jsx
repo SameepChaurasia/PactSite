@@ -64,7 +64,7 @@ export default function Header() {
 
                   <Link to='/events'>
                      <li className="list pt-3 pb-3 hover:scale-150">
-                        Events 
+                        Events
                       </li>
                   </Link>                
 
@@ -76,7 +76,7 @@ export default function Header() {
 
                    <Link to='/pactmembership'>
                        <li className="list pt-3 pb-3 hover:scale-150 ">
-                          Pact Membership
+                          Pact Membership 
                        </li>
                     </Link>
 

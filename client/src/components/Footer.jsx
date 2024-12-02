@@ -17,16 +17,16 @@ export default function Footer() {
           <img src="linkedin.png" className="mr-3 h-10 w-10" />
         </a>
 
-        <a className="mr-5 text-neutral-300 dark:text-neutral-200" href="https://github.com/SameepChaurasia">
+        <a className="mr-5 text-neutral-300 dark:text-neutral-200" href="https://www.instagram.com/paint.tech.hbtu/">
             <img src="instagram.png" className="mr-3 h-10 w-10" />
         </a>
 
-        <a className="mr-5 text-neutral-300 dark:text-neutral-200" href="https://github.com/SameepChaurasia">
+        <a className="mr-5 text-neutral-300 dark:text-neutral-200" href="https://www.youtube.com/@paintandcoatingspectrum">
             <img src="youtube.png" className="mr-3 h-10 w-10" />
         </a>
 
-        <a className="mr-5 text-neutral-300 dark:text-neutral-200" href="thecoderstrade@gmail.com">
-            <img src="gmail.png" className="mr-3 h-10 w-10" />
+        <a className="mr-5 text-neutral-300 dark:text-neutral-200" href="https://www.facebook.com/PACTHBTU/">
+            <img src="fb.png" className="mr-3 h-10 w-10" />
           </a>
 
       </div>
@@ -74,19 +74,19 @@ export default function Footer() {
             Useful links
           </h6>
           <p className="mb-4">
-            <a className="text-neutral-200 dark:text-neutral-200 hover:underline" href="chaurasiasameep26@gmail.com" 
+            <a className="text-neutral-200 dark:text-neutral-200 hover:underline" href="secretary.pact.hbtu@gmail.com" 
             >Email</a>
           </p>
           <p className="mb-4">
-            <a className="text-neutral-200 dark:text-neutral-200 hover:underline" href="https://github.com/SameepChaurasia"
+            <a className="text-neutral-200 dark:text-neutral-200 hover:underline" href="https://www.instagram.com/paint.tech.hbtu/"
             >Instagram</a>
           </p>
           <p className="mb-4">
-            <a className="text-neutral-200 dark:text-neutral-200 hover:underline" href="https://www.linkedin.com/in/sameep-chaurasia-00b8a725a/"
+            <a className="text-neutral-200 dark:text-neutral-200 hover:underline" href="https://www.linkedin.com/company/paint-technology-department-hbtu-kanpur/posts/?feedView=all"
             >Linkedin</a>
           </p>
           <p className="mb-4">
-            <a className="text-neutral-200 dark:text-neutral-200 hover:underline" href="https://www.linkedin.com/in/sameep-chaurasia-00b8a725a/"
+            <a className="text-neutral-200 dark:text-neutral-200 hover:underline" href="https://www.youtube.com/@paintandcoatingspectrum"
             >Youtube</a>
           </p>
         </div>
