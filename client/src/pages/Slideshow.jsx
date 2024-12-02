@@ -5,7 +5,6 @@ import 'swiper/css/autoplay';
 import 'swiper/css/controller';
 
 
-
 export default function SlideShow() {
 
     const images = ["/slide1.jpg","/slide2.jpg","/slide3.jpeg","/slide4.jpg","/slide5.jpeg","/slide6.jpeg"];
