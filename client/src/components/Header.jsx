@@ -6,6 +6,7 @@ export default function Header() {
   return(
     
     <header className="bg-gradient-to-r from-fuchsia-100 to-cyan-100  border border-indigo-500  ">
+      
            <div className="flex flex-col">
               <div className="basis-1/2 bg-white  border-b border-indigo-500">
              
@@ -16,6 +17,7 @@ export default function Header() {
 
                   <div className="basis-1/2">
                     <div className="flex flex-row pl-44">
+                      
                       <div className="basis-1/2 pt-5">
                         <div className="flex flex-row">
                           <div className="basis-1/6">
@@ -92,23 +94,13 @@ export default function Header() {
                         </li>
                      </Link>
 
-                     <Link to='/signup'>
+                     <Link to='/ '>
                      <div className="pt-1 pb-1 pl-10 pr-3">
                         <li className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded ">
                            Sign up
                         </li></div>
                      </Link>
-                      {/* <Link to='/profile'>
-            {currentUser ? (
-              <img
-                className='rounded-full h-10 w-10 object-cover '
-                src={currentUser.avatar}
-                alt='profile'
-              />
-            ) : (
-              <li className=' text-slate-700 hover:underline'> Sign In</li>
-            )}
-          </Link> */}
+                      
                           
                   </ul>
               </div>
@@ -117,7 +109,7 @@ export default function Header() {
          
 
 
- 
+          
     </header>
   
   );
